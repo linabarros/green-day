@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1077</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(180, 255, 167)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="maximumSize">
+       <size>
+        <width>925</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Franklin Gothic Demi</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(180, 255, 167)
+</string>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <widget class="QWidget" name="login">
+       <widget class="QFrame" name="fram_1">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>100</y>
+          <width>731</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLineEdit" name="user_login">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>220</y>
+           <width>261</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Franklin Gothic Demi</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>ArrowCursor</cursorShape>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Login</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="senha_login">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>290</y>
+           <width>261</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Franklin Gothic Demi</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Senha</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="bot_entrar">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>360</y>
+           <width>111</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Franklin Gothic Demi</family>
+           <pointsize>8</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <kerning>false</kerning>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(77, 77, 77);</string>
+         </property>
+         <property name="text">
+          <string>Entrar</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="bot_cadastrar">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>400</y>
+           <width>111</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Franklin Gothic Demi</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(77, 77, 77);</string>
+         </property>
+         <property name="text">
+          <string>Cadastrar</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="logo">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>60</y>
+           <width>291</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>OneDrive/Imagens/Saved Pictures/kisspng-mandara-sobrancelhas-logo-sales-product-marketing-5c8d1c3ab3c0d6.3540159515527516747363 (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="copyright">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>440</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>© green day | 2024</string>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>460</y>
+           <width>541</width>
+           <height>52</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="erro">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>mensagens</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="x_erro">
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	border-radius:8x
+}
+QpushButton:hover{
+	background-color:rgb(50,50,50);
+	color: rgb(200, 200, 200)
+}
+QPushButton:pressed{
+	background-color:rgb(35, 35, 35);
+	color:rgb(200, 200, 200)
+}</string>
+            </property>
+            <property name="text">
+             <string>⌫</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="novo_cadastro">
+       <widget class="QFrame" name="frame_4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>891</width>
+          <height>561</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="novocadastro_label">
+           <property name="font">
+            <font>
+             <family>Franklin Gothic Demi</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;NOVO CADASTRO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_email">
+           <item>
+            <widget class="QLabel" name="email_label">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;E-mail:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="dig_email">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_user">
+           <item>
+            <widget class="QLabel" name="user_label">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Nome de Usuário:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="dig_user">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_senha">
+           <item>
+            <widget class="QLabel" name="senha_label">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Senha:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="dig_senha">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_confirma">
+           <item>
+            <widget class="QLabel" name="confirma_label">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Confirmação de Senha:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="digit_confirma">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_perfil">
+           <item>
+            <widget class="QLabel" name="perfil_label">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Perfil&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="usuario_adm">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Usuário</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Administrador</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_cad">
+           <item>
+            <layout class="QVBoxLayout" name="quadrado_salv__cad">
+             <item>
+              <widget class="QLabel" name="cadastrar_label_left">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="bot_salv_cad">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:rgb(72, 72, 72)</string>
+             </property>
+             <property name="text">
+              <string>SALVAR</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="espaco_vazio_cad">
+             <item>
+              <layout class="QVBoxLayout" name="quadrado_salv_cad">
+               <item>
+                <widget class="QLabel" name="espaco_vazio_cad_2">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QToolButton" name="bot_volt_telalogin">
+           <property name="text">
+            <string>◄</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QFrame" name="frame_5">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>590</y>
+          <width>721</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="msg_label">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(250, 185, 185);</string>
+             </property>
+             <property name="text">
+              <string>mensagens</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="x_msg">
+             <property name="maximumSize">
+              <size>
+               <width>20</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="baseSize">
+              <size>
+               <width>20</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	border-radius:8x
+}
+QpushButton:hover{
+	background-color:rgb(50,50,50);
+	color: rgb(200, 200, 200)
+}
+QPushButton:pressed{
+	background-color:rgb(35, 35, 35);
+	color:rgb(200, 200, 200)
+}</string>
+             </property>
+             <property name="text">
+              <string>⌫</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="perfil">
+       <widget class="QFrame" name="fram_perfis">
+        <property name="geometry">
+         <rect>
+          <x>-40</x>
+          <y>60</y>
+          <width>951</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="perfis_label">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>907</width>
+           <height>69</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Franklin Gothic Demi</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;PERFIS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QFrame" name="fram_bots_perfil">
+         <property name="geometry">
+          <rect>
+           <x>770</x>
+           <y>130</y>
+           <width>117</width>
+           <height>281</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QPushButton" name="bot_delet_perfil_2">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:rgb(72, 72, 72)</string>
+            </property>
+            <property name="text">
+             <string>🗑️</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bot_alterar_perfil">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:rgb(72, 72, 72)</string>
+            </property>
+            <property name="text">
+             <string>📝</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>140</y>
+           <width>621</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>Email</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Nome de Usuário</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Senha</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Confirmação de senha</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Perfil</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QToolButton" name="bot_volt_main">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>560</y>
+           <width>27</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>◄</string>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_msg_perfil">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>500</y>
+           <width>541</width>
+           <height>52</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="msg_erro">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>mensagens</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="x_erro_2">
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	border-radius:8x
+}
+QpushButton:hover{
+	background-color:rgb(50,50,50);
+	color: rgb(200, 200, 200)
+}
+QPushButton:pressed{
+	background-color:rgb(35, 35, 35);
+	color:rgb(200, 200, 200)
+}</string>
+            </property>
+            <property name="text">
+             <string>⌫</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="main_screen">
+       <widget class="QFrame" name="frame_main">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>921</width>
+          <height>671</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QFrame" name="frame_bots">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>600</y>
+           <width>891</width>
+           <height>52</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QPushButton" name="bot_nots">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(77, 77, 77);</string>
+            </property>
+            <property name="text">
+             <string>NOTIFICAÇÕES</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bot_pref_nots">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(77, 77, 77);</string>
+            </property>
+            <property name="text">
+             <string>PREFERÊNCIA DE NOTIFICAÇÃO</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bot_listagem">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(77, 77, 77);</string>
+            </property>
+            <property name="text">
+             <string>LISTAGEM DE PREFERÊNCIA</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bot_seuperfil">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(77, 77, 77);</string>
+            </property>
+            <property name="text">
+             <string>PERFIS</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLabel" name="label_greenday">
+         <property name="geometry">
+          <rect>
+           <x>-10</x>
+           <y>100</y>
+           <width>914</width>
+           <height>420</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(180, 255, 167)</string>
+         </property>
+         <property name="text">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:48pt; font-weight:600; color:#3aaa42;&quot;&gt;GREEN DAY&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#3aaa42;&quot;&gt;Por um planeta melhor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="logo_mainscreen">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>60</y>
+           <width>291</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>OneDrive/Imagens/Saved Pictures/kisspng-mandara-sobrancelhas-logo-sales-product-marketing-5c8d1c3ab3c0d6.3540159515527516747363 (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QToolButton" name="bot_sair">
+         <property name="geometry">
+          <rect>
+           <x>870</x>
+           <y>30</y>
+           <width>27</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>⌧</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pref_nots">
+       <widget class="QFrame" name="frame_prefe">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>921</width>
+          <height>651</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="prefe_label">
+           <property name="font">
+            <font>
+             <family>Franklin Gothic Demi</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;PREFERÊNCIA DE NOTIFICAÇÃO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_hracordar">
+           <item>
+            <widget class="QLabel" name="hr_acordar">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Horário de Acordar:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="tempo_acorda">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_hrdormir">
+           <item>
+            <widget class="QLabel" name="hr_dormir">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Horário de Dormir:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="tempo_dormir">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_transporte">
+           <item>
+            <widget class="QLabel" name="meio_transporte">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Meio de Transporte:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="dig_meiotransporte">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_banho">
+           <item>
+            <widget class="QLabel" name="media_banho">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Média de Tempo no Banho:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="dig_banho">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="quadrado_sacola">
+           <item>
+            <widget class="QLabel" name="uso_sacola">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi Cond</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;O uso de sacola Plástica é alto:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="opcao_sim_sacola">
+             <property name="text">
+              <string>Sim</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="opcao_nao_sacola">
+             <property name="text">
+              <string>Não</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="opcao_tlvz_sacola">
+             <property name="text">
+              <string>Talvez</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_prefe">
+           <item>
+            <layout class="QVBoxLayout" name="quadrado_salv_2">
+             <item>
+              <widget class="QLabel" name="cadastrar_label_left_3">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="bot_salv_prefe">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:rgb(72, 72, 72)</string>
+             </property>
+             <property name="text">
+              <string>SALVAR</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="espaco_vazio_prefe">
+             <item>
+              <layout class="QVBoxLayout" name="quadrado_salv_prefe">
+               <item>
+                <widget class="QLabel" name="espaco_vazio2">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_msg_prefe">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="QLabel" name="msg_erro_prefe">
+              <property name="font">
+               <font>
+                <family>Franklin Gothic Demi</family>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>mensagens</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="x_erro_prefe">
+              <property name="maximumSize">
+               <size>
+                <width>20</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="baseSize">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	border-radius:8x
+}
+QpushButton:hover{
+	background-color:rgb(50,50,50);
+	color: rgb(200, 200, 200)
+}
+QPushButton:pressed{
+	background-color:rgb(35, 35, 35);
+	color:rgb(200, 200, 200)
+}</string>
+              </property>
+              <property name="text">
+               <string>⌫</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <item>
+              <widget class="QToolButton" name="bot_volt_mains">
+               <property name="text">
+                <string>◄</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QToolButton" name="bot_ir_list2">
+             <property name="text">
+              <string>►</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="lista_prefe">
+       <widget class="QFrame" name="fram_list_prefe">
+        <property name="geometry">
+         <rect>
+          <x>29</x>
+          <y>19</y>
+          <width>911</width>
+          <height>651</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="lista_label">
+         <property name="geometry">
+          <rect>
+           <x>-30</x>
+           <y>50</y>
+           <width>907</width>
+           <height>69</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Franklin Gothic Demi</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;LISTAGEM DE PREFERÊNCIAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>160</y>
+           <width>631</width>
+           <height>301</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>Horário de Acordar</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Horário de dormir</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Meio de Transporte</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Tempo no Banho</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Uso de Sacola Plástica</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QFrame" name="fram_bots_list2">
+         <property name="geometry">
+          <rect>
+           <x>790</x>
+           <y>150</y>
+           <width>117</width>
+           <height>311</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QPushButton" name="bot_voltar">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:rgb(72, 72, 72)</string>
+            </property>
+            <property name="text">
+             <string>🗑️</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bot_alterar_list2">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:rgb(72, 72, 72)</string>
+            </property>
+            <property name="text">
+             <string>📝</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QToolButton" name="bot_volt_mainscree">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>600</y>
+           <width>27</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>◄</string>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_erro_list2">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>490</y>
+           <width>541</width>
+           <height>52</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <widget class="QLabel" name="msg_erro_list2">
+            <property name="font">
+             <font>
+              <family>Franklin Gothic Demi</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>mensagens</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="x_erro_3">
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	border-radius:8x
+}
+QpushButton:hover{
+	background-color:rgb(50,50,50);
+	color: rgb(200, 200, 200)
+}
+QPushButton:pressed{
+	background-color:rgb(35, 35, 35);
+	color:rgb(200, 200, 200)
+}</string>
+            </property>
+            <property name="text">
+             <string>⌫</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="notificacao">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_nots">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="nots_label">
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Demi</family>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;NOTIFICAÇÕES&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="quadrado_opte_por">
+             <item>
+              <layout class="QVBoxLayout" name="opte_por">
+               <item>
+                <layout class="QVBoxLayout" name="vert_opte_por">
+                 <item>
+                  <widget class="QLabel" name="opte_por_label">
+                   <property name="font">
+                    <font>
+                     <family>Franklin Gothic Demi</family>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Opte por caminhadas, andar de bicicleta e etc.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="concluido1">
+               <property name="text">
+                <string>CONCLUIDO</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="exclui1">
+               <property name="text">
+                <string>EXCLUIR</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="quadrado_desligue">
+             <item>
+              <layout class="QVBoxLayout" name="vertical_desligue">
+               <item>
+                <widget class="QLabel" name="desligue_label">
+                 <property name="font">
+                  <font>
+                   <family>Franklin Gothic Demi</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Desligue seus eletrônicos quando não estiver usando&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="concluido2">
+               <property name="text">
+                <string>CONCLUIDO</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="exlui2">
+               <property name="text">
+                <string>EXCLUIR</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="quadrado_troque">
+             <item>
+              <layout class="QVBoxLayout" name="vertical_troque">
+               <item>
+                <widget class="QLabel" name="troque_label">
+                 <property name="font">
+                  <font>
+                   <family>Franklin Gothic Demi</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Troque lâmpadas incandescentes por LED                &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="concluido3">
+               <property name="text">
+                <string>CONCLUIDO</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="exclui3">
+               <property name="text">
+                <string>EXCLUIR</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="quadrado_considere">
+             <item>
+              <layout class="QVBoxLayout" name="vertical_considere">
+               <item>
+                <widget class="QLabel" name="considere_label">
+                 <property name="font">
+                  <font>
+                   <family>Franklin Gothic Demi</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Considere doar itens que não ultilize mais              &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="concluido4">
+               <property name="text">
+                <string>CONCLUIDO</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="exclui4">
+               <property name="text">
+                <string>EXCLUIR</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="quadrado_use_sacolas">
+             <item>
+              <layout class="QVBoxLayout" name="vertical_use_sacolas">
+               <item>
+                <widget class="QLabel" name="use_sacolas_label">
+                 <property name="font">
+                  <font>
+                   <family>Franklin Gothic Demi</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5a5a5a;&quot;&gt;Use sacolas reultilizáveis              &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="concluido5">
+               <property name="text">
+                <string>CONCLUIDO</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="exclui5">
+               <property name="text">
+                <string>EXCLUIR</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="quadrado_salv_not">
+             <item>
+              <widget class="QLabel" name="salv_not_label_left_2">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="bot_salv_not">
+               <property name="font">
+                <font>
+                 <family>Franklin Gothic Demi</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">  color: rgb(77, 77, 77);
+    </string>
+               </property>
+               <property name="text">
+                <string>SALVAR</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="espacovazio_salva_not_right">
+               <item>
+                <widget class="QLabel" name="salv_not_label_right_2">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QToolButton" name="bot_volt_mainscre">
+             <property name="text">
+              <string>◄</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
